@@ -1,0 +1,124 @@
+<!--
+Dit is mijn final project voor the course 'Introduction to HTML5' of the University of Michigan. De assignment is as follows:
+
+Grading Checklist:
+1. doctype
+2. head element
+3. body element
+4. At least three semantic tags including main and h1
+5. At least one list with a minimum of three items
+6. At least three images
+7. At least one link to an external source.
+
+In addition the page must be hosted and pass The W3C Markup Validation Service Tool and the WAVE Web Accessibility Evaluation Tool.
+
+Peer Grading
+For this assignment you will be grading the submission of your peers and they will be grading your work as well.
+
+Please note that you must get this COMPLETELY correct to receive credit. You will get frustrated. You will put in silly mistakes. But hang in there. And don't forget to reach out for help if you need it.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Final project - Introduction to HTML5 - University of Michigan</title>
+        
+        <style>
+            body{
+                font-family: sans-serif;
+                max-width: 800px;
+                margin: 2rem auto;
+                padding: 1rem;
+            }
+            header{
+                text-align: center;
+                padding: 1rem;
+                background-color: rgba(211, 211, 211, 0.51);
+            }
+            main{
+                padding: 1rem;
+                background-color: rgba(211, 211, 211, 0.09);
+            }
+            div.flexbox{
+                display: flex;
+                align-items: flex-start;
+            }
+            details{
+                padding: 1rem;
+            }
+            summary{
+                font-weight: bold;
+            }
+            footer{
+                text-align: center;
+                font-size: 0.8rem;
+                padding: 1rem;
+                background-color: rgba(211, 211, 211, 0.51);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header of this page -->
+        <header>
+            <h1>Final project</h1>
+            <p><strong>Introduction to HTML5 - University of Michigan</strong></p>
+        </header>
+        
+        <!-- Main content of this page -->
+        <main>
+            <p>
+                Welcome to my final project for the course 'Introduction to HTML5' of the University of Michigan. I hope you'll enjoy this website and are willing to help me out by grading it. To further encourage you I present tree compelling reasons to do so.
+            </p>
+            <details>
+                <summary>1. You'll be known as a superhero in the Netherlands.</summary>
+                <div class="flexbox">
+                    <figure>
+                        <img src="superman_PNG24.png" alt="Superman" width="200">
+                        <figcaption>Source: <a href="https://pngimg.com/" target="_blank">pngimg.com</a> </figcaption>
+                    </figure>
+                    <p>
+                        The Dutch are very keen on superheroes. Not many people are proclaimed superheroes, so it is a true honor. You will go through life as a true celebrity!
+                    </p>
+                </div>
+            </details>
+            <details>
+                <summary>2. You'll help me achieve my goals.</summary>
+                <div class="flexbox">
+                    <div>
+                        <p>
+                            I'm taking this course and others with the ambition to become a great full-stack developer. I want to be able to create websites that are accessible, responsive and performant. I want to be able to create websites that are easy to maintain and extend. I want to help people with the best possible experience. Because:
+                        </p>
+                        <ul>
+                            <li>I love creating beautiful things.</li>
+                            <li>I love helping people.</li>
+                            <li>I love learning.</li>
+                            <li>I need to earn some money, otherwise my wife will kill me!</li>
+                        </ul>
+                    </div>
+                    <figure>
+                        <img src="bride_PNG19533.png" alt="Bride" width="200">
+                        <figcaption>Source: <a href="https://pngimg.com/" target="_blank">pngimg.com</a> </figcaption>
+                    </figure>
+                </div>
+            </details>
+            <details>
+                <summary>3. You'll feel better about yourself.</summary>
+                <div class="flexbox">
+                    <figure>
+                        <img src="love_PNG7.png" alt="Loving hearts" width="200">
+                        <figcaption>Source: <a href="https://pngimg.com/" target="_blank">pngimg.com</a> </figcaption>
+                    </figure>
+                    <p>
+                        Let's be honest. Helping people make you feel better about yourself. This is a great feeling that you can't get anywhere else. We don't help people for their sake. We do it for our own. I encourage you to feel better about yourself by helping me.
+                    </p>
+                </div>
+            </details>
+        </main>
+        
+        <!-- Footer of this page -->
+        <footer>
+            <p>&copy; 2025 Me. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
